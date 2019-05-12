@@ -1,4 +1,5 @@
 class StoreAdminController > ApplicationController
+  layout 'admin'
   def admin
     render :layout => "admin"
   end
